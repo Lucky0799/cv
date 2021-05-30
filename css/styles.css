@@ -1,0 +1,87 @@
+#title{
+  background-color: #ff449f;
+  color: #fff;
+}
+.collapse{
+  position: absolute;
+  right: 0px;
+}
+.container{
+  background-color: #ff449f;
+  padding:2.5rem;
+
+
+}
+.navbar{
+  padding-bottom:3rem;
+}
+body{
+  font-family: "montserrat";
+}
+.heading{
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.btn-size{
+  margin:3% 5% 3% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #title{
+  background-color: #ff96ad;
+  padding: 2.5rem;
+}
+.navbar-brand{
+  font-size:2.5rem;
+  font-family:"ubuntu;"
+}
+.heading{
+  font-size: 3.5rem;
+  font-family: "montserrat";
+}
+.navbar{
+  padding-bottom: 50px;
+}
+.navbar-nav{
+font-family: sans-serif;
+}
+body{
+  font-family:"montserrat";
+  font-size: 1.5rem;
+
+}
+.collapse{
+  position: absolute;
+  right: 0px;
+} */
