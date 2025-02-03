@@ -70,3 +70,19 @@ app.use(express.static("public"));
 server.listen(3000, () => {
     console.log("🚀 Server running on http://localhost:3000");
 });
+
+function requestUpdate() {
+    client.requestUpdate({
+        incremental: true, // Request only changed areas
+        x: 0, y: 0,
+        width: client.width,
+        height: client.height
+    });
+
+    setTimeout(requestUpdate, 100); // Request every 100ms
+}
+
+client.on("connect", () => {
+    console.log("✅ Connected to VNC server");
+    requestUpdate(); // Start continuous updates
+});
